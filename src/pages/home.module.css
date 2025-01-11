@@ -1,0 +1,28 @@
+/* Container styling */
+.homeContainer {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+
+  min-height: calc(100vh - 70px);
+}
+
+/* Header styling */
+.header {
+  background-color: #ffd700;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1rem;
+  margin: 10px 0 0;
+}
