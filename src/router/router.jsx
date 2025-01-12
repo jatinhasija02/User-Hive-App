@@ -7,6 +7,7 @@ import Signup from "../pages/Signup";
 import Profile from "../pages/Profile";
 import AdminDashboard from "../pages/AdminDashboard";
 import UserPrivate from "./UserPrivate";
+import AdminPrivate from "./AdminPrivate";
 
 export let myRoutes = createBrowserRouter([
   {
@@ -35,7 +36,11 @@ export let myRoutes = createBrowserRouter([
       },
       {
         path: "/admindashboard",
-        element: <AdminDashboard />,
+        element: (
+          <AdminPrivate>
+            <AdminDashboard />
+          </AdminPrivate>
+        ),
       },
     ],
   },

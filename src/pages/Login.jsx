@@ -16,7 +16,7 @@ const Login = () => {
 
   useEffect(() => {
     async function getSignupUsers() {
-      let { data } = await axios.get("http://localhost:4042/users");
+      let { data } = await axios.get("http://localhost:404/users");
       // console.log(data);
       setRegisterUser(data); //storing data to state
     }

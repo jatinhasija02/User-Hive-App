@@ -11,7 +11,7 @@ const Profile = () => {
 
   useEffect(() => {
     async function getLoggedInUser() {
-      let { data } = await axios.get(`http://localhost:4042/users/${userID}`);
+      let { data } = await axios.get(`http://localhost:404/users/${userID}`);
       console.log(data);
       setLoggedInUser(data);
     }
